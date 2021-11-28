@@ -77,7 +77,7 @@ export default function Account(props) {
       <div className="content">
         <div className="account-grid">
           <div>
-            <span className="medium-text">Connect to a wallet (Chain 1)</span>
+            <span className="medium-text">Connect to a wallet (Chain 3)</span>
           </div>
           <div>
             <Input
@@ -135,7 +135,7 @@ export default function Account(props) {
           ) : (
             <div>
               <span className="medium-text">
-                Account Does Not Exist (Send KDA to Chain 1)
+                Account Does Not Exist (Send KDA to Chain 3)
               </span>
             </div>
           )}
@@ -172,12 +172,12 @@ export default function Account(props) {
               Please make sure the KDA account provided is controlled by your wallet.  When submitting a transaction, You will see a preview within the wallet before signing.
             </span>
             <div className="account-button-box">
-              <div className="wallet-button" onClick={()=> window.open("https://zelcore.io", "_blank")}>                
+              <div className="wallet-button" onClick={()=> window.open("https://zelcore.io", "_blank")}>
                 Download Zelcore
               </div>
 
               <div className="wallet-button" onClick={()=> window.open("https://kadena-1.gitbook.io/welcome-to-gitbook/chainweaver-user-guide", "_blank")}>
-              
+
                 Download Chainweaver
               </div>
             </div>
