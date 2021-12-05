@@ -4,6 +4,11 @@
     "token0": "KDA",
     "token1": "ADK"
   },
+  "coin:free.babena": {
+    "name": "coin:free.babena",
+    "token0": "KDA",
+    "token1": "BABE"
+  },
   "coin:runonflux.flux": {
     "name": "coin:runonflux.flux",
     "token0": "KDA",
