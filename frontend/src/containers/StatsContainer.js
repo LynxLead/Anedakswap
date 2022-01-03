@@ -53,7 +53,7 @@ const StatsContainer = ({ data }) => {
   }, [])
   return (
     <Container>
-      <FormContainer title="pool stats"  containerStyle={{ maxWidth: 500 }}>
+      <FormContainer title="Pool Stats"  containerStyle={{ maxWidth: 600 }}>
         <TitlesContainer>
           <span style={{ width: 120 }}>Name</span>
           <span style={{ width: 150 }}>Total Reserve - token0 </span>
