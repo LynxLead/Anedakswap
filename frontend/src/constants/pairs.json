@@ -13,5 +13,10 @@
     "name": "coin:runonflux.flux",
     "token0": "KDA",
     "token1": "FLUX"
+  },
+  "coin:kdlaunch.token": {
+    "name": "coin:kdlaunch.token",
+    "token0": "KDA",
+    "token1": "KDL"
   }
 }

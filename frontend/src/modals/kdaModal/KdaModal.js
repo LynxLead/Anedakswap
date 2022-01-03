@@ -92,32 +92,6 @@ export default function Account(props) {
               }}
             />
 
-            <div
-              onClick={async () => {
-                setLoading(true);
-                walletAccts();
-                const accts = await getAccounts();
-                swal.close();
-                if (accts.status === "success") {
-                  setAcct(accts.data[0]);
-                  setTemp(accts.data[0]);
-                  await pact.setVerifiedAccount(accts.data[0]);
-                  await selectAcct(
-                    accts.data,
-                    setAcct,
-                    setTemp,
-                    pact.setVerifiedAccount
-                  );
-                } else {
-                  walletError();
-                }
-                setLoading(false);
-              }}
-              loading={loading}
-              className="sub-button"
-            >
-              Get zelcore accounts
-            </div>
           </div>
 
           <span className="medium-text">Account Details</span>
