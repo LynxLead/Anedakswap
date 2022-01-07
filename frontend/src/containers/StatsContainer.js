@@ -58,7 +58,7 @@ const StatsContainer = ({ data }) => {
             </td>
             <td >{reduceBalance(pair.reserves[0])}</td>
             <td >{reduceBalance(pair.reserves[1])}</td>
-            <td >{`${reduceBalance(extractDecimal(pair.reserves[0])/extractDecimal(pair.reserves[1]))} ${pair.token0}/${pair.token1}`}</td>
+            <td >{`${reduceBalance(extractDecimal(pair.reserves[0])/extractDecimal(pair.reserves[1]))} ${pair.token0}`}</td>
           </tr>
           :""
         ))}
