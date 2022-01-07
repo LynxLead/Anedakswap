@@ -139,3 +139,29 @@
   display: grid;
   place-content: center;
 }
+
+/* Stats container */
+
+.poolStats-table {
+  background-color: white;
+  padding: 15px 15px;
+  border-radius: 30px;
+  text-align: left;
+  border-spacing: 0;
+
+}
+
+.pairName {
+  display: flex;
+}
+
+td, th {
+  border-bottom: 1px solid #dedede;
+  padding: 1rem;
+}
+
+.poolText {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
