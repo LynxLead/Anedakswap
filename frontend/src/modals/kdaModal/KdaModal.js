@@ -108,9 +108,9 @@ export default function Account(props) {
             <></>
           ) : (
             <div>
-              <span className="medium-text">
-                Account Does Not Exist (Send KDA to Chain 3)
-              </span>
+            <span className="medium-text">
+              Your account does not exist on chain 3...<br />YOU NEED FUNDS ON CHAIN 3!!! SEND KDA TO CHAIN 3<br />YOU NEED FUNDS ON CHAIN 3!!! SEND KDA TO CHAIN 3<br />YOU NEED FUNDS ON CHAIN 3!!! SEND KDA TO CHAIN 3<br />YOU NEED FUNDS ON CHAIN 3!!! SEND KDA TO CHAIN 3
+            </span>
             </div>
           )}
           <div

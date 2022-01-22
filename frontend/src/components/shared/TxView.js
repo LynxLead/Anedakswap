@@ -257,9 +257,12 @@ const TxView = ({ show, view, selectedToken, onTokenClick, onClose, token0, toke
       <Content>
         <ErrorIcon />
         <Title>Transaction Error!</Title>
-        <SubTitle>Error Message</SubTitle>
+        <SubTitle>If using Zelcore, restart your wallet.</SubTitle>
+        <SubTitle>If using Brave, turn off the shield.</SubTitle>
+        <SubTitle>If you still get this error,</SubTitle>
+        <SubTitle>Restart Zelcore again.</SubTitle>
         <TransactionsDetails>
-          <Message color='red' style={{wordBreak: "break-all"}}>
+          <Message color='black' style={{wordBreak: "break-all"}}>
             <RowContainer>
               <span style={{wordBreak: "break-all"}}>
                 {pact.localRes}
